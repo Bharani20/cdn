@@ -21,4 +21,4 @@ VOLUME ["/your/app/directory"]
 EXPOSE 3000
 
 # Start your application
-CMD ["npm", "start" ]
+CMD ["node", "index.js" ]
